@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FreeGallery - Basic example</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet">
+
+<!--Load jQuery + FreeGallery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../Source/jquery.freegallery.min.js"></script>
+
+<style>
+#freegallery li {
+    float: left;
+    margin: 20px;
+}
+ul {
+    list-style: none outside none;
+}
+#freegallery-controls > li {
+    float: left;
+    margin-right: 20px;
+}
+.active {
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+	<main>
+    	<article>
+        	<h1>FreeGallery - <i>Basic example</i></h1>
+            <p>This is the most basic setup. No theme/lay-out just some basic CSS.</p>
+            
+            <ul id="freegallery-controls">
+            	<li>Categories:</li>
+                <li><a href="#" id="all" class="active">All</a></li>
+                <li><a href="#" id="cat1">Websites</a></li>
+                <li><a href="#" id="cat2">Features</a></li>
+            </ul>
+            
+            <div id="freegallery" style="clear:both;">
+            	<ul>
+                	<li class="cat1"><img title="Leijlandia.nl" src="http://api.webthumbnail.org?width=300&amp;height=200&amp;format=png&amp;screen=1024&amp;url=http://www.leijlandia.nl"><p>Leijlandia.nl (Dutch)</p></li>
+                    <li class="cat2"><img height="200px" src="images/HTML5-CSS3.png"><p>HTML5 + CSS3 compatible</p></li>
+                    <li class="cat2"><img height="200px" src="images/jquery-logo.png"><p>Written in jQuery</p></li>
+                </ul>
+            </div>
+        </article>
+    </main>
+    
+<script>
+$("article").freegallery({
+    galleryid: '#freegallery ul', // Gallery container
+	controlid: '#freegallery-controls li a', // Controls container + li a
+	animation_speed: 1000 // Animation speed for fade in miliseconds
+});
+</script>
+
+</body>
+</html>
