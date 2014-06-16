@@ -74,7 +74,3 @@ If you want to help make this project better you can:
 - Make Pull Requests;
 - Submit any feedback;
 - Or just contact me saying you like my work ;)
-
-##### Contact information
-Website: http://www.leijlandia.nl (Dutch)
-Mail: contact@leijlandia.nl
