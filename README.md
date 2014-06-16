@@ -1,5 +1,4 @@
 # FreeGallery
-=============
 
 FreeGallery is a very basic and simple (image) gallery.
 It does not have any fancy features (yet) beside some fading effects.
@@ -7,7 +6,6 @@ It does not have any fancy features (yet) beside some fading effects.
 The non-minified version is commented, so it is very easy to modify.
 
 ## What inspired you?
-=====================
 
 There are a lot of good plugins that do a better job.
 But I only came across plugins that were paid when you want them to use for commercial projects.
@@ -20,7 +18,6 @@ Just download and install!
 And if you like, contribute.
 
 ## What makes FreeGallery special?
-==================================
 
 - It is lightweight
 - Free for (non-)commercial
@@ -28,7 +25,6 @@ And if you like, contribute.
 - HTML5 + CSS3 compatible
 
 ## Installation/Getting Started
-===============================
 
 #### Step 1 - Load the necessary files
 1. Download and unzip the latest version of FreeGallery.
@@ -71,7 +67,6 @@ Currently there is no documentation.
 If you have suggestions or feedback regarding the installation guide and documentation, please contact me.
 
 ## Contributing
-===============
 
 At the moment this project is only maintained by me.
 If you want to help make this project better you can:
