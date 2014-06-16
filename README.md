@@ -7,9 +7,9 @@ The non-minified version is commented, so it is very easy to modify.
 
 ## What inspired you?
 
-There are a lot of good plugins that do a better job.
-But I only came across plugins that were paid when you want them to use for commercial projects.
-And since I'm recently started to use jQuery, I wanted to test my skill and make something for myself.
+There are lots and lots of other good plugins that do a better job.
+But I only came across plugins that were paid when you wanted to use them for commercial projects.
+And since I'm recently started to use jQuery, I wanted to test my skills and make something for myself.
 I'm also kind of a beginner on GitHub, so why not make this project open-source.
 
 Now not only I, but also you can benefit from it.
@@ -20,7 +20,7 @@ And if you like, contribute.
 ## What makes FreeGallery special?
 
 - It is lightweight
-- Free for (non-)commercial
+- Free for (non-)commercial projects
 - Clean (lay-out is up to you)
 - HTML5 + CSS3 compatible
 
