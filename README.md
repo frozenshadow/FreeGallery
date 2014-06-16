@@ -52,7 +52,7 @@ And if you like, contribute.
 	</ul>
 </div>
 ```
-1. Call the script by adding the following to the bottom of your page:
+2. Call the script by adding the following to the bottom of your page:
 ```
 <script>
 $("#freegallery").freegallery({
